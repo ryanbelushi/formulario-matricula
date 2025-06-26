@@ -24,4 +24,17 @@
 
 body {
   overflow: hidden;
+
+  font: var(--text);
+  color: var(--text-secondary);
+}
+
+h1, h2{
+  color: var(--text-primary);
+} 
+
+/* Faz com que a imagem fique dentro do tamanho do seu elemento pai. Neste caso, ela vai sempre tentar caber ao maximo dentro do elemento. */
+img {
+  max-width: 100%;
+  height: auto;
 }
